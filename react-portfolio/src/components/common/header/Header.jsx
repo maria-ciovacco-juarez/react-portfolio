@@ -1,4 +1,7 @@
 import React from 'react';
+import { Navbar } from '../../common';
+
+import './Header.css';
 
 function Header() {
 
@@ -10,7 +13,7 @@ function Header() {
         </section>
         <section className="header-top__navbar">
           <section className="header-top__navigation">
-            {/* <Navbar /> */}
+             <Navbar /> 
           </section>
           <hr className="header-top__seperator" />
         </section>
@@ -20,7 +23,7 @@ function Header() {
           205.383.6223
         </section>
         <section className="header-bottom__email">
-          ciovaccomaria@gmail.
+          ciovaccomaria@gmail.com
         </section>
       </section>
     </section>
