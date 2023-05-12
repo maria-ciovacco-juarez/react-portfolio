@@ -1,15 +1,14 @@
-import './App.scss'
-import {Routes, Route} from 'react-router-dom'
-import Layout from './components/layout'
+import React from 'react';
+import { Header }  from './components/common/';
+import './App.scss';
+
 
 function App() {
   return (
-    <>
-    <Routes>
-      <Route path="/" element={<Layout />} />
-    </Routes>
-    </>
-  )
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
-export default App
+export default App;
