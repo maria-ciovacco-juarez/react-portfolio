@@ -2,6 +2,8 @@ import React from 'react';
 
 import './Footer.css';
 
+// import { FaInstagram } from "react-icons/fa";
+
 function Footer () {
 
   return (
@@ -11,7 +13,7 @@ function Footer () {
         <a href="/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </section> */}
       <section className="credit">
-        Made by Maria Ciovacco
+        Made by Maria Ciovacco Juarez
       </section>
       <section className="footer-info">
         <section className="footer-info-left">
