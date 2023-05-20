@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaBars } from "react-icons/fa";
 
 import "./NavbarStyles.css"
 import { Link } from "react-router-dom"
@@ -22,13 +23,17 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+      <div className='hamburger'>
+        <FaBars size={20} style={{ color: "#fff" }} />
+
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
 
-// const Navbar = () => {
+{/* const Navbar = () => {
 //   return (
 //     <nav className="navbar navbar-expand-lg navbar-light bg-light">
 // <div className='container'> 
@@ -56,4 +61,4 @@ export default Navbar
 // }
 
 
-// export default Navbar
+// export default Navbar */}
