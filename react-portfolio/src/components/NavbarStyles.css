@@ -1,4 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.nav-menu {
+  display:flex;
+}
+
+.nav-menu li {
+  padding: 0 1rem;
+}
+
+.nav-menu li a{
+  font-size: 1.2 rem;
+  font-weight: 500;
+}
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root{
   --primary-pink: #f1bfea;
@@ -10,23 +33,23 @@ body {
 
 /* Navbar */
 
-.navbar-nav {
+/* .navbar-nav {
   margin-left: auto;
-}
+} */
 
 /* Menu Links */
 
-.nav a.nav-link {
+/* .nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
-}
+} */
 
-nav ul li {
+/* nav ul li {
   text-transform: uppercase;
-}
+} */
 
-.navbar-nav > li > a {
+/* .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-pink) !important;
@@ -34,4 +57,4 @@ nav ul li {
 
 .navbar-brand{
   color: var(--primary-pink) !important;
-}
+} */ 

@@ -1,37 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-:root{
-  --primary-pink: #f1bfea;
+
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
-  font-family: "Roboto Condensed" sans serif;
+  background: rgb(213, 192, 255);
 }
 
-/* Navbar */
-
-.navbar-nav {
-  margin-left: auto;
+h1, h4, p,
+a{
+  color: rgb(135, 0, 193);
+  text-decoration: none;
 }
 
-/* Menu Links */
+ul{
+  list-style-type: none;
+}
 
-.nav a.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.0375rem;
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
   cursor: pointer;
 }
 
-nav ul li {
-  text-transform: uppercase;
+.btn-light {
+  /* background: rgba(255, 255, 255, 0.2); */
+  background: transparent;
+  color: #fff;
 }
 
-.navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  color: var(--primary-pink) !important;
-}
-
-.navbar-brand{
-  color: var(--primary-pink) !important;
+.btn:hover {
+  background: rgb(253, 251, 254);
+  color: rgb(135, 0, 193);
+  transition: 0.3s;
 }

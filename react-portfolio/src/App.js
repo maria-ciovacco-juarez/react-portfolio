@@ -5,8 +5,8 @@ import About from './routes/About'
 import Contact from './routes/Contact'
 import Projects from './routes/Projects'
 
-import "bootstrap/dist/css/bootstrap.min.css"
-import Navbar from "./components/Navbar"
+// import "bootstrap/dist/css/bootstrap.min.css"
+// import Navbar from "./components/Navbar"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
