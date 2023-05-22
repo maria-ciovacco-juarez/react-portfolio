@@ -1,0 +1,71 @@
+.project-heading {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.project-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  grid-template-rows: auto auto; /* Added to create two rows */
+  justify-items: center; /* Centers the project cards horizontally */
+  align-content: space-between; /* Adds space between rows */
+  padding-bottom: 5rem;
+}
+
+
+.project-card{
+  background: #f5e8f8;
+  padding: 1.2rem 1rem;
+  
+
+}
+
+.project-card img{
+  width: 100%;
+}
+
+
+.project-title {
+  color: rgb(126, 44, 177);
+  padding: 1rem 0;
+}
+
+.btn-git{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.btn-git .btn{
+  padding: .5rem 1rem;
+}
+
+.project-card:hover{
+  background-color: rgb(228, 217, 231);
+}
+
+.project-title{
+  color:#cc57e6;
+  padding: 1 rem 0,;
+}
+
+.pro-btns{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.pro-btns .btn{
+  padding: 0.5rem 1 rem;
+}
+
+@media screen and (max-width: 740px) {
+  .project-container{
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
