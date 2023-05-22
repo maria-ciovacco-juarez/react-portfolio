@@ -6,12 +6,14 @@ import Footer from "../components/Footer";
 
 
 const Project = () => {
-  return <div>
-    <Navbar/>
-    <HeroImg2/>
-    <Footer/>
+  return (
+    <div>
+      <Navbar />
+      <HeroImg2 heading="PROJECTS." text="Some of my most recent works" />
+      <Footer />
     </div>
-  
-}
+  );
+
+};
 
 export default Project

@@ -4,14 +4,22 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavbarStyles.css"
 import { Link } from "react-router-dom"
 const Navbar = () => {
-  
+
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if(window.scrollY >=100){
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  }
 
-
+  window.addEventListener("scroll", changeColor)
 
   return (
-    <div className="header">
+    <div className={color ? "header header-bg": "header"} >
       <Link to="/">
         <h1>MCJ</h1>
       </Link>
@@ -30,10 +38,8 @@ const Navbar = () => {
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>
-        {click ? (<FaTimes size={20} style={{ color: "#fff" }} /> ) : ( <FaBars size={20} style={{ color: "#fff" }} />
+        {click ? (<FaTimes size={20} style={{ color: "#fff" }} />) : (<FaBars size={20} style={{ color: "#fff" }} />
         )}
-
-
       </div>
     </div>
   );
@@ -41,32 +47,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-{/* const Navbar = () => {
-//   return (
-//     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-// <div className='container'> 
-
-//   <a className="navbar-brand" href="#">MCJ</a>
-//   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-//     <span className="navbar-toggler-icon"></span>
-//   </button>
-
-//   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-//     <ul className="navbar-nav mr-auto">
-//       <li className="nav-item active">
-//         <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
-//       </li>
-//       <li className="nav-item">
-//         <a className="nav-link" href="#">Portfolio</a>
-//       </li>
-      
-//     </ul>
-    
-//   </div>
-// </div>
-// </nav>
-//   )
-// }
-
-
-// export default Navbar */}
