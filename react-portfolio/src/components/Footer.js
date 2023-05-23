@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaGithub, FaMailBulk, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaHome, FaGithub, FaMailBulk, FaTwitter, FaLinkedin } from "react-icons/fa";
 import "./FooterStyles.css";
 
 const Footer = () => {
@@ -21,8 +21,8 @@ const Footer = () => {
             <a href='https://twitter.com/mariaxisabelle'>
             <FaTwitter size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             </a>
-            <a href='https://www.instagram.com/mariaxisabelle/?hl=en'>
-            <FaInstagram size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <a href='https://www.linkedin.com/in/maria-ciovacco-9b8210230/'>
+            <FaLinkedin size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             </a>
           </div>
         </div>
