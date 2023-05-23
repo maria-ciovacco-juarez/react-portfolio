@@ -1,24 +1,49 @@
-
-h1, h2, h3{
-  text-align: center;
-  padding-bottom: 25px;
-}
-
-h3{
-  padding: 10px;
-  padding-bottom: 100px;
-}
-
 .about {
-  padding-top: 50px;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.into-img {
-  border-radius: 50%;
+.about .left {
   text-align: center;
-  display: block;
-  justify-content: center;
-  align-items: center;
   margin: auto;
-  padding-bottom: 20px;
+  padding: 1rem;
+  max-width: 350px;
+}
+
+.about .left p {
+  margin: 1.2rem 0;
+}
+
+.about .right {
+  max-width: 700px;
+}
+
+.right .img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+  height: 100%
+}
+
+.right img {
+  max-width: 90%;
+  border: 1px solid white;
+}
+
+.right .top {
+  grid-column: 1/ span 8;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 6;
+}
+
+.right .bottom {
+  grid-column: 4/ -1;
+  grid-row: 1;
+  z-index: 5;
 }

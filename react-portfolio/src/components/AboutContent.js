@@ -1,8 +1,7 @@
 import "./AboutContentStyles.css"
 import {Link} from "react-router-dom";
-import React from 'react'
-// import React1 from "../assets/react1.jpg"
-// import React2 from "../assets/react2.jpg"
+import React1 from "../assets/react1.jpeg"
+
 
 const AboutContent = () => {
   return (
@@ -14,17 +13,16 @@ const AboutContent = () => {
           <button className="btn">Contact</button>
         </Link>
       </div>
-      <div className="right"></div>
-      <div className="img-container">
-        <div className="img-stack top">
-          {/* <img src={React1} className="img" alt="true"/> */}
-        </div>
-        <div className="img-stack top">
-          {/* <img src={React2} className="img" alt="true"/> */}
+      
+      <div className="right">
+        <div className="img-container">
+          <div className="img-stack top">
+            <img src={React1} className="img" alt="true"/> 
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default AboutContent
+export default AboutContent;
