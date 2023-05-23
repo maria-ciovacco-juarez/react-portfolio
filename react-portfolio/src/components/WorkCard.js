@@ -4,6 +4,8 @@ import pro from "../assets/project1.png";
 import pro2 from "../assets/project2.png";
 import pro3 from "../assets/project3.gif";
 import pro4 from "../assets/project4.png";
+import pro5 from "../assets/project5.png";
+import pro6 from "../assets/project6.png";
 
 import { NavLink } from "react-router-dom";
 
@@ -53,6 +55,38 @@ const WorkCard = () => {
                 View
               </NavLink>
               <NavLink to ="https://github.com/maria-ciovacco-juarez/chill-breeze" className="btn">
+                Source
+              </NavLink>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={pro5} alt="quizcode" />
+          <h2 className="project-title">Thrifty Travel</h2>
+          <div className="pro-details">
+            {/* <p>This is a text</p> */}
+            <div className="pro-btns">
+              <NavLink to="https://tonialtendorf.github.io/Thrifty-Travel/" className="btn">
+                View
+              </NavLink>
+              <NavLink to ="https://github.com/maria-ciovacco-juarez/Thrifty-Travel" className="btn">
+                Source
+              </NavLink>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={pro6} alt="quizcode" />
+          <h2 className="project-title">Shopping List</h2>
+          <div className="pro-details">
+            {/* <p>This is a text</p> */}
+            <div className="pro-btns">
+              <NavLink to="https://shopping-list.herokuapp.com/shoppingList" className="btn">
+                View
+              </NavLink>
+              <NavLink to ="https://github.com/maria-ciovacco-juarez/Shopping_List_Project" className="btn">
                 Source
               </NavLink>
             </div>
