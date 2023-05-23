@@ -1,8 +1,8 @@
 import "./AboutContentStyles.css"
 import {Link} from "react-router-dom";
 import React from 'react'
-import React1 from "../assets/react1.jpg"
-import React2 from "../assets/react2.jpg"
+// import React1 from "../assets/react1.jpg"
+// import React2 from "../assets/react2.jpg"
 
 const AboutContent = () => {
   return (
@@ -17,10 +17,10 @@ const AboutContent = () => {
       <div className="right"></div>
       <div className="img-container">
         <div className="img-stack top">
-          <img src={React1} className="img" alt="true"/>
+          {/* <img src={React1} className="img" alt="true"/> */}
         </div>
         <div className="img-stack top">
-          <img src={React2} className="img" alt="true"/>
+          {/* <img src={React2} className="img" alt="true"/> */}
         </div>
       </div>
     </div>
