@@ -22,6 +22,10 @@ In my portfolio you will find some projects I've done, whether on my own, or col
 
 -- mobile-friendly
 
+
+<img width="1403" alt="Screen Shot 2023-05-23 at 7 31 48 AM" src="https://github.com/maria-ciovacco-juarez/react-portfolio/assets/119270869/ffbadd72-c939-4722-976c-fa9c94a949fb">
+
+
 ## Credits 
 
 Got the template from watching this video: https://www.youtube.com/watch?v=0h2b4ftbZcU&ab_channel=Tech2etc
