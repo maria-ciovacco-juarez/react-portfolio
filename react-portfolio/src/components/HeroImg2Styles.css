@@ -16,6 +16,8 @@
   top: 0;
   left: 0;
   z-index: -1;
+  background-color: rgb(218, 140, 218);
+  opacity: 0.45;
 }
 
 .heading{
