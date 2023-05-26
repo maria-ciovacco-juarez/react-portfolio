@@ -6,7 +6,8 @@ With this challenge, I made a portfolio completely from scratch using React.
 
 ## Installation
 
-No installation, just check out the deployed link -->. kaleidoscopic-lily-07f176.netlify.app
+No installation, just check out the deployed link -->. https://kaleidoscopic-lily-07f176.netlify.app/
+
 
 ## Usage
 
